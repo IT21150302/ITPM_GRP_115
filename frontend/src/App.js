@@ -15,6 +15,7 @@ function App() {
       <Route exact path="/register" element={<Register />} />
       <Route exact path="/profile" element={<Profile />} />
       <Route exact path="/guidline" element={<Guiline />} />
+      <Route exact path="/cusguidline" element={<CusGuideline />} />
       </Routes>
     </BRouter>
   );
