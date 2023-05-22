@@ -1,0 +1,66 @@
+/* Home */
+#home
+{
+  background: rgb(0, 101, 219);
+  background: linear-gradient(90deg,rgb(0,101,219) 50%,rgba(0,212,255,1)100%);
+  min-height: 550px;
+}
+
+.form{
+  background: rgb(0,101,291);
+  background: linear-gradient(90deg, rgb(0,101,219) 30%, rgba(0,212,255,1)
+  100%);
+}
+
+.container2 {
+  
+  margin: auto;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.section {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  color: black;
+}
+
+.section__inputs, .section__temperature {
+  display: flex;
+  align-items: center;
+  
+  background-color: var(--section-overlay);
+}
+
+.section__inputs>input {
+  border: 0.8px solid black;
+  border-radius: 0.4rem;
+  background-color: transparent;
+  color: black;
+  padding: 0.5rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section__inputs>input:focus {
+  outline: none;
+}
+
+.section__inputs>button {
+  padding: 10px 50px;
+  border-radius: 00.4rem;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: white;
+}
+
+.section__inputs>button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
